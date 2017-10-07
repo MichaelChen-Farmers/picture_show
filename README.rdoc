@@ -5,3 +5,7 @@ I made this in an hour and a half, high on peppermint schnapps.
 Post to /images/create with the form field "image=YOUR_IMAGE_IN_MULTI_PART"
 
 Then go to the home page.  It will show your most recent image, updating every 30 seconds.  So cool!
+
+=== Installing
+
+You need imageMagick for this.  That's about it!
