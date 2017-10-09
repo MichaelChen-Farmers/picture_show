@@ -6,7 +6,7 @@ class ImagesController < ApplicationController
   end
 
   def create
-    Image.create(params.permit(:image))
+    Image.create!(params.permit(:image))
     Image.where.not(id: Image.last.id).destroy_all
     render :nothing => true, :status => 200, :content_type => 'text/html'
   end
